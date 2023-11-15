@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed">
+				<img src="img/btn_home.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed btn-fixed_catalog">
+				<img src="img/btn_menu.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/btn_basket.svg" alt="alt">
+				<span class="btn-fixed__value">1</span>
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/btn_user.svg" alt="alt">
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header__wrapper">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Оборудование для бань и саун</div>
+						</div>
+						<div class="form-search">
+							<form>
+								<input type="text" placeholder="Что вы ищете?" required="required">
+								<button class="btn-search">
+									<img src="img/search.svg" alt="alt">
+								</button>
+							</form>
+						</div>
+						<div class="header__contacts">
+							<a href="tel:+77272222525" class="phone-main">+7 (727) 222 25 25</a>
+							<a href="#callback" class="link-page fancybox">заказать звонок</a>
+						</div>
+						<div class="header__right">
+							<div class="language-main">
+								<div class="language-main__value">РУС <img src="img/arrow_down.svg" alt="alt"></div>
+								<div class="language-main__dropdown">
+									<ul>
+										<li><a href="#">РУС</a></li>
+										<li><a href="#">ENG</a></li>
+									</ul>
+								</div>
+							</div>
+							<a href="#" class="btn-header">
+								<img src="img/user.svg" alt="alt">
+							</a>
+							<a href="#" class="btn-header">
+								<img src="img/basket.svg" alt="alt">
+								<span class="btn-header__value">1</span>
+							</a>
+						</div>
+						<a href="tel:+77272222525" class="btn-call">
+							<i class="fas fa-phone-alt"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="catalog-dropdown">
+							<ul>
+								<li><a href="#">Вагонка и погонаж</a></li>
+								<li><a href="#">Кляймеры и крепежи</a></li>
+								<li><a href="#">Облицовочный камень для печи</a></li>
+								<li><a href="#">Грили и тандыры</a></li>
+								<li><a href="#">Дымоходы и вентиляция</a></li>
+								<li><a href="#">Камни для бани</a></li>
+								<li><a href="#">СПА, масла</a></li>
+								<li><a href="#">Мобильные бани</a></li>
+							</ul>
+						</div>
+						<a href="#" class="btn-catalog"><img src="img/menu.svg" alt="alt">каталог товаров</a>
+						<ul class="menu">
+							<li class="active"><a href="#">Калькулятор</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Проекты</a></li>
+							<li><a href="#">Рассрочка</a></li>
+							<li><a href="#">Новости</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li class="active"><a href="#">Калькулятор</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Проекты</a></li>
+					<li><a href="#">Рассрочка</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="language-main">
+					<div class="language-main__value">РУС <img src="img/arrow_down.svg" alt="alt"></div>
+					<div class="language-main__dropdown">
+						<ul>
+							<li><a href="#">РУС</a></li>
+							<li><a href="#">ENG</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__contacts">
+					<a href="tel:+77272222525" class="phone-main">+7 (727) 222 25 25</a>
+					<a href="#callback" class="link-page fancybox">заказать звонок</a>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="billbord">
+			<ul class="slider-billbord">
+				<li>
+					<div class="slide-billbord">
+						<div class="slide-billbord__image">
+							<img src="img/billbord1.jpg" alt="alt">
+						</div>
+						<div class="container">
+							<div class="content-billbord">
+								<h2 class="title-billbord">вагонка и полог <span>из липы</span></h2>
+								<a href="#" class="btn-main">Подробнее</a>
+								<div class="image-billbord">
+									<div class="image-billbord__value">от <strong>3 750</strong> <br>тенге</div>
+									<img src="img/image_billbord1.png" alt="alt">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slide-billbord">
+						<div class="slide-billbord__image">
+							<img src="img/billbord1.jpg" alt="alt">
+						</div>
+						<div class="container">
+							<div class="content-billbord">
+								<h2 class="title-billbord">вагонка и полог <span>из липы</span></h2>
+								<a href="#" class="btn-main">Подробнее</a>
+								<div class="image-billbord">
+									<div class="image-billbord__value">от <strong>3 750</strong> <br>тенге</div>
+									<img src="img/image_billbord1.png" alt="alt">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slide-billbord">
+						<div class="slide-billbord__image">
+							<img src="img/billbord1.jpg" alt="alt">
+						</div>
+						<div class="container">
+							<div class="content-billbord">
+								<h2 class="title-billbord">вагонка и полог <span>из липы</span></h2>
+								<a href="#" class="btn-main">Подробнее</a>
+								<div class="image-billbord">
+									<div class="image-billbord__value">от <strong>3 750</strong> <br>тенге</div>
+									<img src="img/image_billbord1.png" alt="alt">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="advantages">
+			<div class="container">
+				<ul class="slider-advantages">
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Большой выбор <strong>бондарных изделий</strong> для бани</div>
+							<div class="item-advantage__image">
+								<img src="img/image_avd1.png" alt="alt">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Большой выбор <strong>бондарных изделий</strong> для бани</div>
+							<div class="item-advantage__image">
+								<img src="img/image_avd1.png" alt="alt">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Большой выбор <strong>бондарных изделий</strong> для бани</div>
+							<div class="item-advantage__image">
+								<img src="img/image_avd1.png" alt="alt">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="item-advantage">
+							<div class="item-advantage__title">Большой выбор <strong>бондарных изделий</strong> для бани</div>
+							<div class="item-advantage__image">
+								<img src="img/image_avd1.png" alt="alt">
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<h2 class="title-section">Популярные</h2>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_hit">хит</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="benefits">
+			<div class="container">
+				<ul class="slider-benefits">
+					<li>
+						<div class="item-benefit">
+							<div class="item-benefit__icon">
+								<img src="img/ic_benefit1.svg" alt="alt">
+							</div>
+							<p>Возможность купить товар в рассрочку</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-benefit">
+							<div class="item-benefit__icon">
+								<img src="img/ic_benefit2.svg" alt="alt">
+							</div>
+							<p>Доставка заказа в любую точку Казахстана</p>
+						</div>
+					</li>
+					<li>
+						<div class="item-benefit">
+							<div class="item-benefit__icon">
+								<img src="img/ic_benefit3.svg" alt="alt">
+							</div>
+							<p>Выгодные цены на ассортимент товаров</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="categories">
+			<div class="container">
+				<h2 class="title-section">Основные категории</h2>
+				<div class="block-categories">
+					<div class="row">
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category1.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">печи для бани</a>
+									<ul>
+										<li><a href="#">Печи для бани</a></li>
+										<li><a href="#">Аксессуары и комплектующие</a></li>
+										<li><a href="#">Печи электрические</a></li>
+										<li><a href="#">Печи газовые</a></li>
+										<li><a href="#">Печи дровяные</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category2.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">вагонка и погонаж</a>
+									<ul>
+										<li><a href="#">Вагонка и погонаж</a></li>
+										<li><a href="#">Палубная доска</a></li>
+										<li><a href="#">Панель кедр Алтайский штиль</a></li>
+										<li><a href="#">Профилированная доска</a></li>
+										<li><a href="#">Евровагонка кедр</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category3.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">двери для бани, окна</a>
+									<ul>
+										<li><a href="#">Двери для бани, окна</a></li>
+										<li><a href="#">Двери деревянные</a></li>
+										<li><a href="#">Двери стеклянные</a></li>
+										<li><a href="#">Двери хамам</a></li>
+										<li><a href="#">Окна</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category4.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">дымоходы и вентиляция</a>
+									<ul>
+										<li><a href="#">Дымоходы и вентиляция</a></li>
+										<li><a href="#">Адаптеры</a></li>
+										<li><a href="#">Бак на трубе</a></li>
+										<li><a href="#">Вентиляция</a></li>
+										<li><a href="#">Конвекторы</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category5.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">грили и тандыры</a>
+									<ul>
+										<li><a href="#">Газовые баллоны</a></li>
+										<li><a href="#">Грили</a></li>
+										<li><a href="#">Тандыры</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-6">
+							<div class="item-category">
+								<a href="#" class="item-category__image">
+									<img src="img/category6.png" alt="alt">
+								</a>
+								<div class="item-category__content">
+									<a href="#" class="item-category__title">бондарные изделия</a>
+									<ul>
+										<li><a href="#">Бондарные изделия</a></li>
+										<li><a href="#">Банные шайки</a></li>
+										<li><a href="#">Ведра для бани</a></li>
+										<li><a href="#">Вентиляционные заглушки</a></li>
+										<li><a href="#">Запарники для бани и сауны</a></li>
+									</ul>
+									<a href="#" class="link-page">смотреть все</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="catalog">
+			<div class="container">
+				<h2 class="title-section">Новинки</h2>
+				<ul class="slider-catalog">
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+					<li>
+						<div class="item-catalog">
+							<div class="tag-catalog tag-catalog_new">новинка</div>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Паротермальная электрическая печь «ПАР и ЖАР» (18 кВт/380 Вт) облицовка из природного камня</a>
+							<div class="item-catalog__prices">
+								<div class="price-main">211 500 ₸</div>
+								<div class="price-old">220 000 ₸</div>
+							</div>
+							<a href="#" class="btn-main btn-main_cart"><img src="img/cart.svg" alt="alt">в корзину</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container">
+				<div class="head-section">
+					<h2 class="title-section">Статьи, советы</h2>
+					<a href="#" class="link-page">Смотреть все <span class="hidden-mob">статьи</span></a>
+				</div>
+				<ul class="slider-news">
+					<li>
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__title">Зима – прекрасный период для посещения русской баньки</span>
+							<span class="item-news__text">Интересно, что самое главное в бане? Правильно ее построить и обшить?...</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__title">Зима – прекрасный период для посещения русской баньки</span>
+							<span class="item-news__text">Интересно, что самое главное в бане? Правильно ее построить и обшить?...</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__title">Зима – прекрасный период для посещения русской баньки</span>
+							<span class="item-news__text">Интересно, что самое главное в бане? Правильно ее построить и обшить?...</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-news">
+							<span class="item-news__image">
+								<img src="img/news1.jpg" alt="alt">
+							</span>
+							<span class="item-news__title">Зима – прекрасный период для посещения русской баньки</span>
+							<span class="item-news__text">Интересно, что самое главное в бане? Правильно ее построить и обшить?...</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="instagram">
+			<div class="container">
+				<h2 class="title-section">Мы в Instagram </h2>
+				<div class="row row_insta">
+					<div class="col-lg-3 col-6">
+						<a href="img/insta1.jpg" class="item-insta fancybox">
+							<span class="item-insta__image">
+								<img src="img/insta1.jpg" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="img/insta2.jpg" class="item-insta fancybox">
+							<span class="item-insta__image">
+								<img src="img/insta2.jpg" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="img/insta3.jpg" class="item-insta fancybox">
+							<span class="item-insta__image">
+								<img src="img/insta3.jpg" alt="alt">
+							</span>
+						</a>
+					</div>
+					<div class="col-lg-3 col-6">
+						<a href="img/insta4.jpg" class="item-insta fancybox">
+							<span class="item-insta__image">
+								<img src="img/insta4.jpg" alt="alt">
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-text">
+			<div class="container">
+				<h2 class="title-middle">Заголовок SEO текста</h2>
+				<div class="text-columns">
+					<p>Каждый из нас понимает очевидную вещь: начало повседневной работы по формированию позиции требует анализа вывода текущих активов. Внезапно, действия представителей оппозиции представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления. Разнообразный и богатый опыт говорит нам, что разбавленное изрядной долей эмпатии, рациональное мышление напрямую зависит от соответствующих условий активизации. Наше дело не так однозначно, как может показаться: семантический разбор внешних противодействий напрямую зависит от дальнейших направлений развития. Наше дело не так однозначно, как может показаться: сплочённость команды профессионалов играет важную роль</p>
+					<p>Каждый из нас понимает очевидную вещь: начало повседневной работы по формированию позиции требует анализа вывода текущих активов. Внезапно, действия представителей оппозиции представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть ограничены исключительно образом мышления. Разнообразный и богатый опыт говорит нам, что разбавленное изрядной долей эмпатии, рациональное мышление напрямую зависит от соответствующих условий активизации. Наше дело не так однозначно, как может показаться: семантический разбор внешних противодействий напрямую зависит от дальнейших направлений развития. Наше дело не так однозначно, как может показаться: сплочённость команды профессионалов играет важную роль</p>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="hidden-desktop">
+					<a href="#" class="logo">
+						<img src="img/logo2.svg" alt="alt">
+					</a>
+				</div>
+				<div class="row">
+					<div class="col-lg-2 col_footer">
+						<div class="footer__title">Навигация <i class="fas fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Личный кабинет</a></li>
+								<li><a href="#">Оферта</a></li>
+								<li><a href="#">Доставка</a></li>
+								<li><a href="#">Дилерам</a></li>
+								<li><a href="#">Наши проекты</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Видео</a></li>
+								<li><a href="#">Строим баню</a></li>
+								<li><a href="#">Статьи </a></li>
+								<li><a href="#">Расчет материалов</a></li>
+								<li><a href="#">Возврат и обмен</a></li>
+								<li><a href="#">Оплата</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col_footer">
+						<div class="footer__title">Популярные товары <i class="fas fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav footer__nav_columns">
+								<li><a href="#">Вагонка и пагонаж</a></li>
+								<li><a href="#">Печи для бани</a></li>
+								<li><a href="#">Купели и фитобочки</a></li>
+								<li><a href="#">Террасная доска</a></li>
+								<li><a href="#">Полок для бани</a></li>
+								<li><a href="#">Веники для бани</a></li>
+								<li><a href="#">Гималайская соль</a></li>
+								<li><a href="#">Двери для бани</a></li>
+								<li><a href="#">Лаки, пропитки, крепежи</a></li>
+								<li><a href="#">Евровагонка</a></li>
+								<li><a href="#">Половая доска</a></li>
+								<li><a href="#">Шапки для бани</a></li>
+								<li><a href="#">Дровяные печи</a></li>
+								<li><a href="#">Грили</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<ul class="footer__nav footer__nav_big">
+							<li><a href="#">Калькулятор</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Проекты</a></li>
+							<li><a href="#">Рассрочка</a></li>
+							<li><a href="#">Новости</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col_contacts">
+						<div class="footer__title">Контакты <i class="fas fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<p>г. Алматы, 050050, <br>ул. Ратушного, 78 Б</p>
+							<br>
+							<p><strong>Отдел продаж</strong></p>
+							<p><a href="tel:+77272222525">+7 727 222 25 25</a></p>
+							<br>
+							<p><strong>Отдел продаж</strong> </p>
+							<p><a href="tel:+77009980265">+7 700 998 02 65</a> </p>
+							<p><a href="tel:+77013332272">+7 701 333 22 72</a></p>
+							<br>
+							<p><strong>Отдел оптовых и региональных продаж </strong></p>
+							<p><a href="tel:+77010332272">+7 701 033 22 72</a></p>
+							<br>
+							<p><a href="mailto:sales@vagonka.kz">sales@vagonka.kz</a></p>
+							<p><a href="#">buratino.vagonka</a></p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="hidden-mob">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+						</div>
+						<div class="row row_footer">
+							<div class="col-lg-12 col-6">
+								<div class="footer__title">Социальные сети</div>
+								<ul class="list-social">
+									<li><a href="#"><img src="img/inst.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/fb.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/yt.svg" alt="alt"></a></li>
+								</ul>
+							</div>
+							<div class="col-lg-12 col-6">
+								<div class="footer__title">Способы оплаты</div>
+								<ul class="list-payments">
+									<li><a href="#"><img src="img/visa.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/mastercard.svg" alt="alt"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg-2 col-6">
+							<p>© Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg col-6">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-xl-4 col-lg">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-middle">заказать звонок</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="Телефон" required="required">
+				</div>
+				<input type="submit" class="btn-main" value="Отправить">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Согласие на обработку персональных данных</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
