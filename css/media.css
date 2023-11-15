@@ -684,6 +684,7 @@
 	}
 	.menu-mobile .language-main {
 		margin-bottom: 10px;
+		display: inline-block;
 	}
 	.language-main img {
 		filter: brightness(0) invert(1);
