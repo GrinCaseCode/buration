@@ -364,9 +364,11 @@ $(".link-page_checkbox").click(function(e) {
 		if ($(this).siblings(".item-sidebar__content .checkbox-main:nth-child(n+11)").is(":hidden")) {
 			$(this).siblings(".item-sidebar__content .checkbox-main:nth-child(n+11)").slideDown(200);
 			$(this).html("Свернуть"); 
+			$(this).addClass("active");
 		} else {
 			$(this).siblings(".item-sidebar__content .checkbox-main:nth-child(n+11)").slideUp(200);
 			$(this).html("смотреть еще");
+			$(this).removeClass("active");
 		}
 	});
 

@@ -1285,6 +1285,12 @@
 	.page-order {
 		padding-bottom: 38px;
 	}
+	.link-page_checkbox {
+		transition: initial;
+	}
+	.link-page_checkbox.active {
+		transform: translateX(-30px);
+	}
 } 
 
 
